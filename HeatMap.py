@@ -110,7 +110,7 @@ class CustomVisionTransformer(nn.Module):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Visualize Self-Attention maps')
-    parser.add_argument("--image_path", default='/data0/yuanyz/NewGraph/datasets/patientminimum_spanning_tree256412/test/201301225/11494.577820968703_13844.556839013185/wsi.png', type=str, help="Path of the image to load.")
+    parser.add_argument("--image_path", default='wsi.png', type=str, help="Path of the image to load.")
     parser.add_argument("--image_size", default=(480, 480), type=int, nargs="+", help="Resize image.")
     parser.add_argument('--output_dir', default='.', help='Path where to save visualizations.')
     parser.add_argument("--threshold", type=float, default=0.5, help="""We visualize masks
