@@ -24,8 +24,8 @@ import numpy as np
 from PIL import Image
 
 from CLAM.models.dino_utils import display_instances
-os.environ['HUGGINGFACE_HUB_TOKEN'] = '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'
-os.environ['HF_HUB_BASE_URL'] = 'https://hf-mirror.com/'
+os.environ['HUGGINGFACE_HUB_TOKEN'] = 'hf_XXX'  # set your token
+os.environ['HF_HUB_BASE_URL'] = 'https://hf-mirror.com/' 
 
 class CustomVisionTransformer(nn.Module):
     """ Custom Vision Transformer with additional methods """
